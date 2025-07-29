@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Reflection - Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="page-title">Course Reflection</h1>
+            <div class="language-switcher">
+                <button id="lang-en" class="lang-btn active" data-lang="en">English</button>
+                <button id="lang-fr" class="lang-btn" data-lang="fr">Français</button>
+                <button id="lang-es" class="lang-btn" data-lang="es">Español</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="welcome-section">
+                <h2 id="welcome-title">Welcome to Your Course Reflection</h2>
+                <p id="welcome-message">Take a moment to reflect on your learning journey and share your thoughts about the course experience.</p>
+            </section>
+
+            <section class="reflection-form">
+                <form id="reflection-form">
+                    <div class="question-group">
+                        <label for="question1" id="question1-label">What did you enjoy most about the course?</label>
+                        <textarea id="question1" name="question1" rows="4" placeholder="Share your thoughts..."></textarea>
+                    </div>
+
+                    <div class="question-group">
+                        <label for="question2" id="question2-label">What was the most challenging part of the course?</label>
+                        <textarea id="question2" name="question2" rows="4" placeholder="Describe the challenges you faced..."></textarea>
+                    </div>
+
+                    <div class="question-group">
+                        <label for="question3" id="question3-label">What could be improved about the course?</label>
+                        <textarea id="question3" name="question3" rows="4" placeholder="Suggest improvements..."></textarea>
+                    </div>
+
+                    <div class="question-group">
+                        <label for="overall-rating" id="rating-label">Overall Course Rating</label>
+                        <div class="rating-container">
+                            <input type="range" id="overall-rating" name="rating" min="1" max="5" value="3">
+                            <div class="rating-display">
+                                <span id="rating-value">3</span>
+                                <span id="rating-text">out of 5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit-btn">Submit Reflection</button>
+                </form>
+            </section>
+
+            <section class="additional-info">
+                <h3 id="info-title">About This Reflection</h3>
+                <p id="info-text">Your feedback is valuable to us and helps improve the course experience for future students. All responses are confidential and will be used for educational improvement purposes only.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p id="footer-text">&copy; 2024 Course Management Platform. All rights reserved.</p>
+            <p id="language-info">Language: <span id="current-language">English</span></p>
+        </footer>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
