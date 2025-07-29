@@ -62,7 +62,7 @@ npm install
 ```bash
 # Start MySQL
 docker run --name course-management-mysql \
-  -e MYSQL_ROOT_PASSWORD=password123 \
+  -e MYSQL_ROOT_PASSWORD=patrick123 \
   -e MYSQL_DATABASE=course_management \
   -p 3306:3306 \
   -d mysql:8.0

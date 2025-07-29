@@ -30,3 +30,12 @@
 {"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-29T09:44:57.073Z"}
 {"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-29T09:44:57.075Z"}
 {"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-29T09:44:57.076Z"}
+{"level":"info","message":"Database connection established successfully","service":"course-management-platform","timestamp":"2025-07-29T09:49:06.269Z"}
+{"level":"info","message":"Database models synchronized","service":"course-management-platform","timestamp":"2025-07-29T09:49:29.936Z"}
+{"level":"info","message":"Connected to Redis","service":"course-management-platform","timestamp":"2025-07-29T09:49:29.948Z"}
+{"level":"info","message":"Redis client ready","service":"course-management-platform","timestamp":"2025-07-29T09:49:29.964Z"}
+{"level":"info","message":"Redis connection established","service":"course-management-platform","timestamp":"2025-07-29T09:49:29.965Z"}
+{"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-29T09:49:29.971Z"}
+{"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-29T09:49:29.972Z"}
+{"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-29T09:49:29.974Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"course-management-platform","timestamp":"2025-07-29T09:51:20.608Z"}
