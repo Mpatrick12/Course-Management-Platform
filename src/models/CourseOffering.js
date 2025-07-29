@@ -63,7 +63,7 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING
     },
     schedule: {
-      type: DataTypes.JSON // Store weekly schedule as JSON
+      type: DataTypes.JSON
     },
     isActive: {
       type: DataTypes.BOOLEAN,
@@ -71,10 +71,11 @@ module.exports = (sequelize) => {
     }
   }, {
     tableName: 'course_offerings',
+    underscored: true,  // <--- Add this line
     indexes: [
       {
         unique: true,
-        fields: ['moduleId', 'cohortId', 'classId', 'trimester']
+        fields: ['module_id', 'cohort_id', 'class_id', 'trimester'] // use snake_case here
       }
     ]
   });

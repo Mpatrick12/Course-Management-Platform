@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": "password123",
-    "database": "course_management",
+    "password": "patrick123",
+    "database": "coursemanagement",
     "host": "127.0.0.1",
+    "port": 3306,
     "dialect": "mysql"
   },
   "test": {

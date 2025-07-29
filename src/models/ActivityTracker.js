@@ -72,14 +72,15 @@ module.exports = (sequelize) => {
   }, {
     tableName: 'activity_tracker',
     indexes: [
-      {
-        unique: true,
-        fields: ['allocationId', 'weekNumber']
-      },
-      {
-        fields: ['facilitatorId', 'weekNumber']
-      }
-    ]
+  {
+    unique: true,
+    fields: ['allocation_id', 'week_number']  
+  },
+  {
+    fields: ['facilitator_id', 'week_number']  // use snake_case here as well
+  }
+]
+
   });
 
   ActivityTracker.associate = (models) => {
