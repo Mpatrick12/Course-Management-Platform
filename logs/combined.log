@@ -47,3 +47,47 @@
 {"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-29T09:52:18.758Z"}
 {"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-29T09:52:18.762Z"}
 {"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-29T09:52:18.767Z"}
+{"level":"info","message":"Database connection established successfully","service":"course-management-platform","timestamp":"2025-07-30T10:30:33.015Z"}
+{"level":"info","message":"Database models synchronized","service":"course-management-platform","timestamp":"2025-07-30T10:31:18.437Z"}
+{"level":"info","message":"Connected to Redis","service":"course-management-platform","timestamp":"2025-07-30T10:31:18.442Z"}
+{"level":"info","message":"Redis client ready","service":"course-management-platform","timestamp":"2025-07-30T10:31:18.488Z"}
+{"level":"info","message":"Redis connection established","service":"course-management-platform","timestamp":"2025-07-30T10:31:18.490Z"}
+{"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-30T10:31:18.512Z"}
+{"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-30T10:31:18.518Z"}
+{"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-30T10:31:18.521Z"}
+{"level":"info","message":"Database connection established successfully","service":"course-management-platform","timestamp":"2025-07-30T11:13:58.947Z"}
+{"level":"info","message":"Database models synchronized","service":"course-management-platform","timestamp":"2025-07-30T11:14:43.072Z"}
+{"level":"info","message":"Connected to Redis","service":"course-management-platform","timestamp":"2025-07-30T11:14:43.077Z"}
+{"level":"info","message":"Redis client ready","service":"course-management-platform","timestamp":"2025-07-30T11:14:43.092Z"}
+{"level":"info","message":"Redis connection established","service":"course-management-platform","timestamp":"2025-07-30T11:14:43.093Z"}
+{"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-30T11:14:43.104Z"}
+{"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-30T11:14:43.115Z"}
+{"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-30T11:14:43.118Z"}
+{"level":"info","message":"Database connection established successfully","service":"course-management-platform","timestamp":"2025-07-30T12:09:50.916Z"}
+{"level":"info","message":"Database models synchronized","service":"course-management-platform","timestamp":"2025-07-30T12:10:33.182Z"}
+{"level":"info","message":"Connected to Redis","service":"course-management-platform","timestamp":"2025-07-30T12:10:33.207Z"}
+{"level":"info","message":"Redis client ready","service":"course-management-platform","timestamp":"2025-07-30T12:10:33.309Z"}
+{"level":"info","message":"Redis connection established","service":"course-management-platform","timestamp":"2025-07-30T12:10:33.311Z"}
+{"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-30T12:10:33.328Z"}
+{"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-30T12:10:33.330Z"}
+{"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-30T12:10:33.334Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"course-management-platform","timestamp":"2025-07-30T12:10:57.638Z"}
+{"level":"info","message":"Database connection established successfully","service":"course-management-platform","timestamp":"2025-07-30T12:33:33.896Z"}
+{"level":"info","message":"Database models synchronized","service":"course-management-platform","timestamp":"2025-07-30T12:34:07.365Z"}
+{"level":"info","message":"Connected to Redis","service":"course-management-platform","timestamp":"2025-07-30T12:34:07.374Z"}
+{"level":"info","message":"Redis client ready","service":"course-management-platform","timestamp":"2025-07-30T12:34:07.523Z"}
+{"level":"info","message":"Redis connection established","service":"course-management-platform","timestamp":"2025-07-30T12:34:07.533Z"}
+{"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-30T12:34:07.559Z"}
+{"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-30T12:34:07.561Z"}
+{"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-30T12:34:07.563Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"course-management-platform","timestamp":"2025-07-30T12:34:15.036Z"}
+{"level":"error","message":"Failed to start server:","name":"SequelizeConnectionRefusedError","original":{"code":"ECONNREFUSED","fatal":true},"parent":{"code":"ECONNREFUSED","fatal":true},"service":"course-management-platform","stack":"SequelizeConnectionRefusedError\n    at ConnectionManager.connect (C:\\Users\\GK TECH\\Desktop\\IT2\\Course-Management-Platform\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:92:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\GK TECH\\Desktop\\IT2\\Course-Management-Platform\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\GK TECH\\Desktop\\IT2\\Course-Management-Platform\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32\n    at async ConnectionManager.getConnection (C:\\Users\\GK TECH\\Desktop\\IT2\\Course-Management-Platform\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:197:7)\n    at async C:\\Users\\GK TECH\\Desktop\\IT2\\Course-Management-Platform\\node_modules\\sequelize\\lib\\sequelize.js:305:26\n    at async Sequelize.authenticate (C:\\Users\\GK TECH\\Desktop\\IT2\\Course-Management-Platform\\node_modules\\sequelize\\lib\\sequelize.js:457:5)\n    at async startServer (C:\\Users\\GK TECH\\Desktop\\IT2\\Course-Management-Platform\\src\\app.js:125:5)","timestamp":"2025-07-30T12:46:44.130Z"}
+{"level":"info","message":"Database connection established successfully","service":"course-management-platform","timestamp":"2025-07-30T12:50:32.556Z"}
+{"level":"info","message":"Database models synchronized","service":"course-management-platform","timestamp":"2025-07-30T12:50:49.753Z"}
+{"level":"info","message":"Connected to Redis","service":"course-management-platform","timestamp":"2025-07-30T12:50:49.768Z"}
+{"level":"info","message":"Redis client ready","service":"course-management-platform","timestamp":"2025-07-30T12:50:49.817Z"}
+{"level":"info","message":"Redis connection established","service":"course-management-platform","timestamp":"2025-07-30T12:50:49.822Z"}
+{"level":"info","message":"Server running on port 3000","service":"course-management-platform","timestamp":"2025-07-30T12:50:49.863Z"}
+{"level":"info","message":"API Documentation available at http://localhost:3000/api-docs","service":"course-management-platform","timestamp":"2025-07-30T12:50:49.866Z"}
+{"level":"info","message":"Student Reflection Page available at http://localhost:3000/reflection","service":"course-management-platform","timestamp":"2025-07-30T12:50:49.867Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"course-management-platform","timestamp":"2025-07-30T12:52:33.549Z"}
